@@ -1,6 +1,6 @@
-## App Description
+## To Do App w/ React.js
 
-Welcome to our latest React application, a dynamic and feature-rich web platform that harnesses a suite of powerful React features. With a strong emphasis on user experience and modular development, this app shines through its utilization of React's fundamental capabilities:
+Welcome to my latest React application, a dynamic and feature-rich web platform that harnesses a suite of powerful React features. With a strong emphasis on user experience and modular development, this app shines through its utilization of React's fundamental capabilities:
 
 - **Components:** We've structured our user interface into reusable components, ensuring a clean and maintainable codebase.
 
@@ -14,6 +14,10 @@ Welcome to our latest React application, a dynamic and feature-rich web platform
 
 - **Portals:** Render components outside the primary React tree, enabling unique and versatile UI implementations.
 
-Explore our app to witness these features in action and observe how they harmonize to create a responsive and interactive web experience. We've designed this application with a focus on performance, maintainability, and user engagement.
+- **localStorage:** We leverage the browser's `localStorage` to provide a persistent and local data storage solution, enhancing user data retention and application customization.
 
-Try out our React app today and see how it can benefit your projects!
+Explore the app to witness these features in action and observe how they harmonize to create a responsive and interactive web experience. I've designed this application with a focus on performance, maintainability, and user engagement.
+
+Try out the React app today and see how it can benefit your projects!
+
+https://santiagoferrerb.github.io/to-do-react/
