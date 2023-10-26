@@ -9,6 +9,10 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+html{
+  background-color: #34e065;
+}
+
 
 body{
   background: rgb(224, 224, 224);
@@ -24,7 +28,7 @@ body{
 #root{
   border-radius: 15px;
   margin: 0 72px;
-  width: 500px;
+  width: 90%;
   height: 80vh;
 
   background: rgba(255, 255, 255, 0.32);
