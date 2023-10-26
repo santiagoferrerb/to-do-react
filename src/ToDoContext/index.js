@@ -20,7 +20,12 @@ function ToDoProvider({ children }) {
 
     // Estados Derivados
     const searchedToDos = todos.filter(
-        item => item.text.toLowerCase().includes(searchValue.toLowerCase())
+        (item) => {
+            const todoText = item.text.toLowerCase();
+            const searchText = searchValue.toLowerCase();
+
+            return todoText.includes(searchText)
+        }
     );
 
     const completedToDos = todos.filter(item => !!item.completed).length;
