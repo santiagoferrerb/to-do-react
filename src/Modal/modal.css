@@ -5,7 +5,7 @@
 
 .form{
     width: 100%;
-    height: 512px;
+    height: 450px;
     border-radius: 32px;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,7 @@
     backdrop-filter: blur(8.1px);
     -webkit-backdrop-filter: blur(8.1px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
 }
 
 .nueva-h1 {
