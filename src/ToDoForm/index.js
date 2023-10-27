@@ -32,6 +32,7 @@ function ToDoForm() {
                 onSubmit = {onSubmit}
             >
                 <textarea
+                    autoFocus
                     placeholder='Escribe la nueva tarea aqui'
                     className='form-text'
                     value={newValue}
