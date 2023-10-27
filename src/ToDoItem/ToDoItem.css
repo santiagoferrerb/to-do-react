@@ -2,9 +2,12 @@ li{
     display: flex;
     list-style: none;
     width: 80%;
+    /* width: auto; */
     align-items: center;
     justify-content: center;
-    height: 44px;
+    min-height: 32px;
+    height: auto;
+    padding: 8px 0;
 
     background: rgba(255, 255, 255, 0.32);
     border-radius: 16px;
@@ -27,6 +30,7 @@ li svg{
     margin: 0 8px;
     padding: 2px;
     font-size: 28px;
+    flex-shrink: 0;
     cursor: pointer;
 
     background: rgba(255, 255, 255, 0.719);
@@ -54,7 +58,8 @@ li svg:nth-of-type(2):hover {
 
 .ToDoItem--completed{
     background: #34e065 ;
-    height: 35px;
+    min-height: 22px;
+    height: auto;
     margin-left: 12px;
 
 }
