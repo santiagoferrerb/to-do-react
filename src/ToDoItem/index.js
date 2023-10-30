@@ -1,10 +1,12 @@
 import './ToDoItem.css';
 import { BiSolidMessageSquareCheck } from 'react-icons/bi';
 import { MdDeleteOutline } from 'react-icons/md';
+import { MagicMotion } from 'react-magic-motion';
 
 
 function ToDoItem({ text, completed, onComplete, onDelete }) {
     return (
+
       <li className={completed === true ? 'ToDoItem--completed' : undefined}>
 
         <BiSolidMessageSquareCheck

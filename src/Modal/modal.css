@@ -1,6 +1,7 @@
 #modal{
     width: 90%;
     position:absolute;
+    max-width: 500px;
 }
 
 .form{
